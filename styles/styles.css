@@ -224,3 +224,48 @@ article.jump-to a {
 article.jump-to a:hover {
   color: #619211; 
 }
+
+/* footer */
+footer{
+    color: #8f8f8f;
+}
+.footerh1{
+    color:#523e33;
+    margin-bottom: 1.5em;
+}
+
+.openhours li{
+    height: 2em;
+
+}
+
+.socialtags{
+    margin-right: 3em;
+}
+
+.socialtags li{
+    float: right;
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+article p{
+    padding: 1em 2em;
+    margin-top: 1em;
+}
+
+article p:first-letter{
+    color: #c81211;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.ndp{
+    margin-left: 2em ;
+}
+
+.nondp{
+    font-size: 0.8em;
+    color:gray;
+    padding: 2em 4em;
+}
