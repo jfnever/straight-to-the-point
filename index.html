@@ -4,108 +4,126 @@
 <head>
   <meta charset="utf-8">
   <title>Straight to the Point Archery</title>
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head> 
   
 <body>
   <!-- E.V. Section -->
+  
   <header>
-      <img id="nav-bg-image" src="images/class1.jpg" alt="Kids with bows and arrows">
-      <img src="images/logo.jpg" alt="STTP Logo">
+      <a href="index.html"><img src="images/logo.png" alt="STTP Logo"></a>
     <nav>
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="index.html">CLASSES</a></li>
-        <li><a href="about.html">GALLERY</a></li> 
+        <li><a href="about.html">GALLERY</a></li>
+        <li><a href="index.html">CLASSES</a>&nbsp;|&nbsp;</li>
+        <li><a href="about.html">ABOUT US</a>&nbsp;|&nbsp;</li>
+        <li><a class="current" href="index.html">HOME</a>&nbsp;|&nbsp;</li>
       </ul>
     </nav>
   </header>
   <!-- E.V. Section -->
-  <section>
-    <h1>WELCOME TO STRAIGHT TO THE POINT ARCHERY</h1>
-      <p>
-        Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.
-      </p>
-      <p>
-        <a href="#">ABOUT US AND OUR INSTRUCTORS &gt;</a>
-      </p>
-      <p>
-        <a href="#">CLASSES &gt;</a>
-      </p>
-  </section>
-  <aside>
-    <p>
-      <i class="fa fa-quote-left"></i>Straight to the Point Archery has made me feel as confident as Katniss Everdeen. 
-    </p>
-    <p class="quote-att">
-      -Chloe, Age 13
-    </p>
-    <p>
-      <i class="fa fa-quote-left"></i>Derek helped me gain the expertise I needed to be competitive at tournaments. 
-    </p>
-    <p class="quote-att">
-      -Jeff, Age 20
-    </p>
-  </aside>
-  <!-- Feng Section -->
+  <div class="section group">
+    <div class="col span_1_of_2">
+      <section>
+        <h1 class="welcome">WELCOME TO STRAIGHT TO THE POINT ARCHERY</h1>
+          <p>
+            Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.
+          </p>
+          <p>
+            <a href="#">ABOUT US AND OUR INSTRUCTORS &gt;</a>
+          </p>
+          <p>
+            <a href="#">CLASSES &gt;</a>
+          </p>
+      </section>
+    </div>
+    <div class="col span_1_of_2">
+      <aside>
+        <img class="circle" src="images/chloe.jpg" alt="Chloe, Student">
+        <p class="quote-1">
+          <i class="fa fa-quote-left"></i>Straight to the Point Archery has made me feel as confident as Katniss Everdeen. 
+        </p>
+        <p class="quote-att">
+          -Chloe, Age 13
+        </p>
+        <img class="circle" src="images/jeff.jpg" alt="Jeff, Student">
+        <p class="quote-2">
+          <i class="fa fa-quote-left"></i>Derek helped me gain the expertise I needed to be competitive at tournaments. 
+        </p>
+        <p class="quote-att">
+          -Jeff, Age 20
+        </p>
+      </aside>
+    </div>
+  </div>
+  <!-- Feng Section --> 
   <footer>
-    <section class="address">
-      <h1 class="footerh1">STTP ARCHERY</h1>
-        <p>528 Nock Point Ln,</p>
-        <p>Tacoma, WA 98412</p>
-        <p><a href="archery-education@example.com">archery-education@example.com</a></p>
-        <p>(253)555-1010</p>
-    </section>
-    <section class="hours">
-      <h1 class="footerh1">OUR HOURS</h1>
-        <ul>
-          <li>
-            Monday: 0:00 AM - 0:00PM
-          </li>
-          <li>
-            Tuesday:0:00 AM - 0:00PM
-          </li>
-          <li>
-            Wednesday:0:00 AM - 0:00PM
-          </li>
-          <li>
-            Thursday:0:00 AM - 0:00PM
-          </li>
-          <li>
-            Friday:0:00 AM - 0:00PM
-          </li>
-          <li>
-            Saturday:0:00 AM - 0:00PM
-          </li>
-          <li>
-            Sunday:0:00 AM - 0:00PM
-          </li>
-        </ul>
-      </section>
-      <section class="map">
-        <h1 class="footerh1">MAP TO STTP ARCHERY</h1>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.0145398073596!2d-122.4423590844089!3d47.17993887707019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549101d1ddff6c2f%3A0x737c59a0816eb431!2z5Y2O55ub6aG_5aGU56eR6ams6YKu5pS_57yW56CBOiA5ODQxMg!5e0!3m2!1szh-CN!2sus!4v1448504377334" allowfullscreen></iframe>
-      </section>
-      <section class="copy-social">
-        <hr/>
-        <p>&copy;2015 Straight To The Point Archery</p>
-        <ul>
-          <li>
-            <i class="fa fa-instagram"></i>
-          </li>
-          <li>
-            <i class="fa fa-twitter-square"></i>
-          </li>
-          <li>
-            <i class="fa fa-vimeo-square"></i>
-          </li>
-          <li>
-            <i class="fa fa-facebook-square"></i>
-          </li>
-        </ul>
-      </section>
+  <div class="section group gray">
+    <div class="col span_1_of_3">
+        <section class="address">
+          <h1 class="footerh1">STTP ARCHERY</h1>
+            <p>528 Nock Point Ln,</p>
+            <p>Tacoma, WA 98412</p>
+            <p><a href="archery-education@example.com">archery-education@example.com</a></p>
+            <p>(253)555-1010</p>
+        </section>
+      </div>
+      <div class="col span_1_of_3">
+        <section class="hours">
+          <h1 class="footerh1">OUR HOURS</h1>
+            <ul>
+              <li>
+                Monday: 0:00 AM - 0:00PM
+              </li>
+              <li>
+                Tuesday:0:00 AM - 0:00PM
+              </li>
+              <li>
+                Wednesday:0:00 AM - 0:00PM
+              </li>
+              <li>
+                Thursday:0:00 AM - 0:00PM
+              </li>
+              <li>
+                Friday:0:00 AM - 0:00PM
+              </li>
+              <li>
+                Saturday:0:00 AM - 0:00PM
+              </li>
+              <li>
+                Sunday:0:00 AM - 0:00PM
+              </li>
+            </ul>
+          </section>
+      </div>
+      <div class="col span_1_of_3">
+          <section class="map">
+            <h1 class="footerh1">MAP TO STTP ARCHERY</h1>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.0145398073596!2d-122.4423590844089!3d47.17993887707019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549101d1ddff6c2f%3A0x737c59a0816eb431!2z5Y2O55ub6aG_5aGU56eR6ams6YKu5pS_57yW56CBOiA5ODQxMg!5e0!3m2!1szh-CN!2sus!4v1448504377334" allowfullscreen></iframe>
+          </section>
+          <section class="copy-social">
+            <hr/>
+            <p>&copy;2015 Straight To The Point Archery</p>
+            <ul>
+              <li>
+                <i class="fa fa-instagram"></i>
+              </li>
+              <li>
+                <i class="fa fa-twitter-square"></i>
+              </li>
+              <li>
+                <i class="fa fa-vimeo-square"></i>
+              </li>
+              <li>
+                <i class="fa fa-facebook-square"></i>
+              </li>
+            </ul>
+        </section>
+      </div>
+    </div>
   </footer>  
 </body>
   
