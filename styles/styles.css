@@ -227,7 +227,7 @@ article.jump-to a:hover {
 
 /* footer */
 footer{
-    color: #8f8f8f;
+    color: #1d1d1d;
 }
 .footerh1{
     color:#523e33;
@@ -266,6 +266,18 @@ article p:first-letter{
 
 .nondp{
     font-size: 0.8em;
-    color:gray;
+    color: #959595;
     padding: 2em 4em;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.secondnav li{
+    margin-top: 1em;
+}
+
+.secondnav a:hover{
+    text-decoration: underline;
 }
